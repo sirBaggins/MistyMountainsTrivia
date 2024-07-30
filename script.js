@@ -36,8 +36,8 @@ function start() {
     const btn = document.getElementById("start_btn");
     btn.style.display = "none";
 
-    const languageDiv =  document.getElementById("language")
-    
+    const languageDiv = document.getElementById("language")
+
     languageDiv.innerHTML = flags;
     languageDiv.style.display = "flex";
     document.getElementById("gameName").style.display = "none";
@@ -51,7 +51,7 @@ function chooseLanguage(language) {
             proceedStart()
             break;
         case "en":
-            questionsList = questionsListPortuguese;
+            questionsList = questionsListEnglish;
             proceedStart()
             break;
         default:
@@ -61,7 +61,7 @@ function chooseLanguage(language) {
     }
 }
 
-function proceedStart(){
+function proceedStart() {
     lives = 5
     score = 0;
 
@@ -129,7 +129,7 @@ function checkAnswer(letter) {
         }
 
         displayLives();
-        
+
     }
 }
 
@@ -165,7 +165,7 @@ function displayLives() {
     livesDiv.innerHTML = hearts.join("");
 }
 
-function updateScore(){
+function updateScore() {
     document.getElementById("currentScore").innerText = score;
 }
 
