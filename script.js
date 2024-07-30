@@ -91,12 +91,19 @@ function getQuestion() {
     const totalQuestions = questionsList.length;
     const x = Math.floor(Math.random() * (totalQuestions));
 
-    while (x in played) {
-        x = Math.floor(Math.random() * (totalQuestions));
+    while (true){
+        if (x in played) {
+            x = Math.floor(Math.random() * (totalQuestions));
+            continue;
+        }
+        else{
+            break;
+        }
     }
 
-    right = questionsList[x]["correct"];
     played.push(x);
+
+    right = questionsList[x]["correct"];
     return questionsList[x];
 }
 
