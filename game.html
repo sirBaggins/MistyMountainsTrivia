@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wellfleet&display=swap" rel="stylesheet">
+
+    <title>Game</title>
+</head>
+
+<body onload="init()">
+
+    <article class="game_container">
+
+        <div onclick="setSound()"><img src="./img/svg/sound_off.svg" alt="sound_on" id="sound_btn" value="off"
+                draggable="false"></div>
+
+        <div class="gameName" id="gameName">
+            <h1>MISTY MOUNTAINS TRIVIA</h1>
+        </div>
+        <div id="start_btn" onclick="start()"><strong class="wellfleet-regular">START</strong></div>
+        <div id="language"></div>
+
+
+        <div class="game" id="game">
+            <div class="level" id="level">
+                <h1>Question:</h1>
+                <h3 id="question"></h3>
+
+                <div class="answer">
+                    <button id="a" onclick="checkAnswer('a')"></button>
+                    <button id="b" onclick="checkAnswer('b')"></button>
+                    <button id="c" onclick="checkAnswer('c')"></button>
+                    <button id="d" onclick="checkAnswer('d')"></button>
+                    <button id="e" onclick="checkAnswer('e')"></button>
+                </div>
+                <button id="next" onclick="next()">next</button>
+            </div>
+            <div class="lives" id="lives">
+            </div>
+            <div class="currentScore">Score is: <strong id="currentScore"></strong></div>
+        </div>
+        <button id="quitMidGame" onclick="displayScore()">quit</button>
+
+        <div class="finalScore" id="finalScore">
+            <h1 id="theScore">aaaaa</h1>
+            <button onclick="exit()">Play again</button>
+        </div>
+    </article>
+
+
+    <audio loop id="music">
+        <source src="./audio/bg1.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+</body>
+
+
+</html>

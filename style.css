@@ -1,0 +1,302 @@
+* {
+    font-family: "Wellfleet", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.wellfleet-regular {
+    font-family: "Wellfleet", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.game_container {
+    width: 720px;
+    height: 720px;
+
+    background-image: url(./img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+
+    border: 8px solid rgb(43, 29, 29);
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#start_btn {
+    width: 250px;
+    height: 100px;
+
+    display: block;
+    position: absolute;
+
+    border: 4px solid white;
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: 4px 4px 8px black;
+
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: .1s ease;
+
+}
+
+#start_btn:hover {
+    background-color: white;
+    color: black;
+    border: 4px solid black;
+    cursor: pointer;
+}
+
+#sound_btn {
+    translate: 340px;
+    cursor: pointer;
+}
+
+.game {
+    display: none;
+}
+
+.game_play {
+    display: block;
+    position: absolute;
+
+    align-self: center;
+
+    width: 600px;
+    height: 600px;
+
+    background-color: rgb(255, 255, 255);
+    background-image: url(img/blackboard.png);
+
+    border-radius: 16px;
+    box-shadow: 0 0 60px rgb(0, 64, 116);
+
+}
+
+.level {
+    width: 550px;
+    height: 550px;
+
+    padding-left: 30px;
+
+    overflow: hidden;
+    text-wrap: wrap;
+
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.answer button {
+    display: block;
+    width: 95%;
+    height: 40px;
+
+    margin-bottom: 1rem;
+    padding: 10px;
+
+    border: none;
+    border-radius: 8px;
+
+    overflow: hidden;
+    text-align: justify;
+
+    transition: .3s ease;
+}
+
+.answer button:hover {
+    background-color: rgba(218, 165, 32, 0.199);
+    cursor: pointer;
+}
+
+.correct {
+    background-color: green;
+}
+
+.wrong {
+    background-color: brown;
+}
+
+#next {
+    display: none;
+
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+
+
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 12px;
+
+    transition: .3s ease;
+
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+}
+
+#next:hover {
+    background-color: rgb(170, 255, 0);
+    cursor: pointer;
+}
+
+.lives {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.finalScore {
+    position: absolute;
+    top: 25%;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+
+    background-color: rgb(255, 255, 255);
+    background-image: url(img/blackboard.png);
+
+}
+
+.finalScore button {
+
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+
+
+    background-color: rgb(202, 187, 53);
+    border: none;
+    border-radius: 12px;
+
+    transition: .3s ease;
+}
+
+.finalScore button:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#language {
+    display: none;
+
+    height: fit-content;
+    width: fit-content;
+    padding: 50px;
+
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    align-self: center;
+
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.158);
+    backdrop-filter: blur(4px);
+}
+
+.flagCircle {
+    filter: blur(2px);
+    transition: .15s ease;
+}
+
+.flagCircle:hover {
+    filter: none;
+}
+
+.shadow {
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+}
+
+.currentScore {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+
+    top: 0;
+    right: -20px;
+    
+    margin-top: 10px;
+}
+
+#currentScore{
+    width: 5px;
+    padding: 0 5px;
+
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#quitMidGame{
+    display: none;
+
+    width: 60px;
+    height: 30px;
+
+    font-weight: bold;
+
+    background-color: rgb(133, 98, 98);
+    border: none;
+    border-radius: 12px;
+
+    transition: .3s ease;
+
+    position: absolute;
+    right: 6%;
+    bottom: 11%;
+
+}
+
+#quitMidGame:hover {
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.gameName{
+    position: absolute;
+    font-size: xx-large;
+
+    top: 30%;
+
+    color: rgb(0, 15, 56);
+    text-shadow: 1px 1px 8px rgb(0, 183, 255);
+}
