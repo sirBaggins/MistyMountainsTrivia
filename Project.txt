@@ -1,0 +1,11 @@
+Project: Mobile browser game
+Game name: MistyMountainsTrivia
+Game loop: Answer trivia questions
+Topics:
+    a) General knowledge
+        1) easy
+        2) normal
+        3) hard
+
+Specs:
+Main font: MedievalSharp (googlefonts)
