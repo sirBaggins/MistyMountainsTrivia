@@ -237,11 +237,11 @@ function getSet() {
 function verifyAnswer(letter){
     if (letter === currentQuestion["correct"]){
         // TODO
-        return
+        return true;
     }
     else{
         // TODO
-        return
+        return false;
     }
 }
 

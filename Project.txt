@@ -22,3 +22,4 @@ Screens:
         1) menu -> mainMenu;
         2) levels -> levelSelector;
         3) GAME -> gamePlay;
+        4) score -> scoreDisplay;
