@@ -13,13 +13,103 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
-    
+
 </head>
 
-<body>
+<body onload="init()">
+    <div class="gameContainer">
+        <!-- sound controller -->
+        <div class="soundController">
+            <img src="../resources/svg/sound_off.svg" class="click" id="sound_btn" onclick="setMusic()">
+        </div>
+        <!-- endblock -->
 
+        <!-- main menu -->
+        <div class="mainMenu" id="mainMenu">
 
+            <div class="gameLogo">
+                <h1>Misty</h1>
+                <h1>Mountains</h1>
+                <h1>Trivia</h1>
 
+            </div>
+            <div class="btnMenu">
+                <button class="btn second_BG click" onclick="pageUpdater(1)">PLAY</button>
+            </div>
+
+            <div class="language">
+                <div style="width: 6rem; margin-right: 1rem;">
+                    <img src="../resources/svg/br_flag.svg" onclick="selectLanguage('pt')" id="language_pt"
+                        class="blur click">
+                </div>
+
+                <div style="width: 6rem;">
+                    <img src="../resources/svg/en_flag.svg" onclick="selectLanguage('en')" id="language_en"
+                        class="blur click">
+                </div>
+            </div>
+
+        </div>
+        <!-- endblock -->
+
+        <!-- level selector -->
+        <div class="levelSelector" id="levelSelector">
+            <button class="btn click" id="easy" onclick="gameMode('easy')">EASY</button>
+            <button class="btn click blur" id="normal" onclick="gameMode('normal')">NORMAL</button>
+            <button class="btn click blur" id="hard" onclick="gameMode('hard')">HARD</button>
+            <br>
+            <div class="startGame">
+                <button class="btn click" onclick="pageUpdater(2)">PLAY</button>
+            </div>
+        </div>
+        <!-- endblock -->
+
+        <!-- game loop -->
+        <div class="gamePlay" id="gamePlay">
+
+            <div class="dialog">
+                <div class="question">
+                    <p id="question">question here</p>
+                </div>
+            </div>
+
+            <div class="gameButtons">
+
+                <button onclick="verifyAnswer('a')"><strong>A) </strong>
+                    <p id="a"></p>
+                </button>
+                <button onclick="verifyAnswer('b')"><strong>B) </strong>
+                    <p id="b"></p>
+                </button>
+                <button onclick="verifyAnswer('c')"><strong>C) </strong>
+                    <p id="c"></p>
+                </button>
+                <button onclick="verifyAnswer('d')"><strong>D) </strong>
+                    <p id="d"></p>
+                </button>
+
+            </div>
+
+            <div class="gameController">
+
+                <button class="giveNext" id="giveUp" onclick="init()">QUIT</button>
+                <button class="giveNext" id="next" onclick="loadNext()">NEXT</button>
+
+            </div>
+        </div>
+        <!-- endblock -->
+
+        <!-- score -->
+        <div class="scoreDisplay" id="scoreDisplay">
+            <div class="back">
+                <h1>YOUR SCORE IS:</h1>
+                <h1 id="score">X</h1>
+                <button class="btn click" onclick="init()">PLAY AGAIN</button>
+            </div>
+        </div>
+        <!-- endblock -->
+
+    </div>
 
 </body>
 

@@ -3,9 +3,22 @@ Game name: MistyMountainsTrivia
 Game loop: Answer trivia questions
 Topics:
     a) General knowledge
-        1) easy
-        2) normal
-        3) hard
+        1) easy;
+        2) normal;
+        3) hard;
 
 Specs:
 Main font: MedievalSharp (googlefonts)
+
+colours:
+    main -> #FFCD70 (orange)
+    secondary -> #E9FF70 (yellow)
+    tertiary -> #FF8570 (red-ish)
+
+
+
+Screens:
+    root -> gameContainer;
+        1) menu -> mainMenu;
+        2) levels -> levelSelector;
+        3) GAME -> gamePlay;

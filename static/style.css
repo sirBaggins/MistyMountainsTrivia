@@ -1,4 +1,406 @@
+:root {
+    --mainColour: #FFCD70;
+    --secondColour: #E9FF70;
+    --thirdColour: #FF8570;
+}
+
+* {
+    font-family: "MedievalSharp", cursive;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+/* ############# FONTS ############# */
+
 .medieval {
     font-family: "MedievalSharp", cursive;
     font-style: normal;
+}
+
+/* ############# PAGE ############# */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameContainer {
+    min-width: 300px;
+    width: 50%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--mainColour);
+    box-shadow: 0 0 10rem var(--mainColour);
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.btn {
+    width: 10rem;
+    height: 4rem;
+
+    border: none;
+    border-radius: 20px;
+
+    font-weight: 900;
+    font-size: x-large;
+
+    transition: .3s ease;
+}
+
+.main_BG {
+    background-color: var(--mainColour);
+}
+
+.second_BG {
+    background-color: var(--secondColour);
+}
+
+.third_BG {
+    background-color: var(--thirdColour);
+}
+
+.main_C {
+    color: var(--mainColour);
+}
+
+.second_C {
+    color: var(--secondColour);
+}
+
+.third_C {
+    color: var(--thirdColour);
+}
+
+.soundController {
+    width: 3em;
+    margin: 0.5rem;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.soundController img {
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 2rem;
+}
+
+.blur {
+    filter: blur(2px);
+}
+
+.blur:hover {
+    filter: none;
+}
+
+.click {
+    cursor: pointer;
+}
+
+/* ############# SCREENS ############# */
+
+/* --------- MAIN MENU --------- */
+.mainMenu {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 20px;
+
+    background-image: url(../resources/img/bg_menu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.gameLogo {
+    margin: 6rem 2rem 3rem;
+}
+
+.gameLogo h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    word-wrap: break-word;
+
+    color: var(--secondColour);
+    text-shadow: 0 0 10px black;
+}
+
+.btnMenu {
+    display: flex;
+    justify-content: center;
+}
+
+.btnMenu button:hover {
+    background-color: var(--thirdColour);
+    box-shadow: 0 0 20px black;
+    color: var(--secondColour);
+}
+
+.language {
+    margin-top: 4rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.language img {
+    transition: .3s ease;
+}
+
+.language img:hover {
+    filter: none;
+}
+
+/* --------- endblock --------- */
+
+
+/* --------- LEVEL SELECTOR --------- */
+.levelSelector {
+    display: none;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+    background-image: url(../resources/img/bg_menu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.levelSelector button {
+    margin-bottom: 4rem;
+    background-color: var(--secondColour);
+}
+
+.levelSelector button:hover {
+    background-color: var(--thirdColour);
+}
+
+.startGame button {
+    background-color: rgb(0, 128, 0);
+}
+
+.startGame button:hover {
+    background-color: rgb(0, 228, 0);
+    box-shadow: 0 0 40px rgb(251, 255, 0);
+}
+
+/* --------- endblock --------- */
+
+
+/* --------- GAME PLAY --------- */
+
+.gamePlay {
+    display: none;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+
+    background-color: white;
+}
+
+.easy {
+    background-image: url(../resources/img/bg_easy.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.normal {
+    background-image: url(../resources/img/bg_normal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hard {
+    background-image: url(../resources/img/bg_hard.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dialog {
+    width: 100%;
+    height: 15rem;
+    margin-top: -2rem;
+
+    background-color: rgba(250, 235, 215, 0.39);
+    /* background-image: url(../resources/img/box_dialog.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    overflow: hidden;
+}
+
+.question p{
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    
+    width: 90%;
+    height: 15%;
+
+    color: black;
+    padding: 3rem 1rem;
+    text-wrap: wrap;
+    word-wrap: break-word;
+
+    overflow-y: auto;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+
+}
+
+.gameButtons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: 6rem;
+}
+
+.gameButtons button{
+    width: 100%;
+    height: 6rem;
+    padding: 0 1rem;
+    
+    text-align: justify;
+    font-size: x-large;
+    color: white;
+
+    border: none;
+    background-color: rgba(0, 0, 0, 0.452);
+
+    overflow: hidden;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    display: inline;
+}
+.gameButtons button strong, p{
+    display: inline;
+}
+
+.gameButtons button:hover{
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.gameController{
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 5rem;
+    
+    display: flex;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+.giveNext{
+    width: 50%;
+    border: none;
+
+    font-size: large;
+    font-weight: 900;
+
+    background-color: transparent;
+    color: white;
+
+}
+
+#giveUp:hover{
+    background-color: rgba(117, 0, 0, 0.527);
+}
+
+#next:hover{
+    background-color: rgba(14, 117, 0, 0.418);
+}
+
+/* --------- endblock --------- */
+
+
+/* --------- score display --------- */
+
+.scoreDisplay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scoreDisplay button:hover{
+    background-color: green;
+    box-shadow: 0 0 40px green;
+}
+
+.back{
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+#score{
+    margin: 1rem 1rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.733);
+    box-shadow: 0 0 10px black;
+}
+
+/* --------- endblock --------- */
+
+
+
+/* MOBILE CLASSES */
+@media only screen and (hover: none) and (pointer: coarse) {
+    .gameContainer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .language {
+        margin-top: 10rem;
+    }
+
 }
