@@ -303,51 +303,51 @@ body {
 }
 
 .dialog {
+    background-color: rgba(255, 255, 255, 0.767);
+    
     width: 100%;
-    height: 15rem;
-    margin-top: -2rem;
+    height: 25%;
 
-    background-color: rgba(139, 132, 123, 0.596);
-    /* background-image: url(../resources/img/box_dialog.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+    position: relative;
+    top: 0;
 
-    overflow: hidden;
+}
+
+.question{
+    height: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow-wrap: anywhere;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .question p {
-    position: absolute;
-    z-index: 999;
-    top: 1rem;
-
-    width: 90%;
-    height: 15%;
-
-    color: black;
-    padding: 3rem 1rem;
-    text-wrap: wrap;
-    word-wrap: break-word;
-
-    overflow-y: auto;
-
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: xx-large;
-    font-weight: 600;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
 }
 
 .gameButtons {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box; */
+    /* display: -ms-flexbox; */
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
+    /* -webkit-box-orient: vertical; */
+    /* -webkit-box-direction: normal; */
+    /* -ms-flex-direction: column; */
     flex-direction: column;
+    
     position: absolute;
     width: 100%;
-    bottom: 10rem;
+    height: 24rem;
+
+    top: 30%;
 }
 
 .gameButtons button {
@@ -436,6 +436,7 @@ p {
 
 .lives {
     position: absolute;
+    z-index: 999;
     margin: 1rem;
     height: 2rem;
     left: 0;
@@ -447,6 +448,7 @@ p {
 
 .scoreBar {
     position: absolute;
+    z-index: 999;
     margin: 0.5rem;
     height: 2rem;
     right: 0;
@@ -454,6 +456,7 @@ p {
     font-size: xx-large;
     font-family: fantasy;
     color: var(--secondColour);
+    text-shadow: 0 0 5px black;
 }
 
 /* --------- endblock --------- */
@@ -552,6 +555,6 @@ p {
     }
 
     .gameButtons {
-        bottom: 15rem;
+        top: 30%;
     }
 }
