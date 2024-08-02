@@ -335,12 +335,12 @@ body {
 }
 
 .gameButtons {
-    /* display: -webkit-box; */
-    /* display: -ms-flexbox; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    /* -webkit-box-orient: vertical; */
-    /* -webkit-box-direction: normal; */
-    /* -ms-flex-direction: column; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     
     position: absolute;
@@ -371,6 +371,10 @@ body {
 .gameButtons button strong,
 p {
     display: inline;
+}
+
+.gameButtons button p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .gameButtons button:hover {
