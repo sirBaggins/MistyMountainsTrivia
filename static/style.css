@@ -17,11 +17,11 @@
     margin: 0;
     padding: 0;
     -webkit-box-sizing: content-box;
-            box-sizing: content-box;
+    box-sizing: content-box;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     -webkit-user-drag: none;
 }
 
@@ -44,11 +44,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .gameContainer {
@@ -62,15 +62,15 @@ body {
 
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 
     background-color: var(--mainColour);
     -webkit-box-shadow: 0 0 10rem var(--mainColour);
-            box-shadow: 0 0 10rem var(--mainColour);
+    box-shadow: 0 0 10rem var(--mainColour);
     border-radius: 20px;
 
     overflow: hidden;
@@ -133,12 +133,12 @@ body {
 
 .blur {
     -webkit-filter: blur(2px);
-            filter: blur(2px);
+    filter: blur(2px);
 }
 
 .blur:hover {
     -webkit-filter: none;
-            filter: none;
+    filter: none;
 }
 
 .click {
@@ -179,14 +179,14 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .btnMenu button:hover {
     background-color: var(--thirdColour);
     -webkit-box-shadow: 0 0 20px black;
-            box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
     color: var(--secondColour);
 }
 
@@ -199,8 +199,8 @@ body {
 
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 .language img {
@@ -211,7 +211,7 @@ body {
 
 .language img:hover {
     -webkit-filter: none;
-            filter: none;
+    filter: none;
 }
 
 /* --------- endblock --------- */
@@ -235,15 +235,15 @@ body {
 
     -webkit-box-direction: normal;
 
-        -ms-flex-direction: column;
+    -ms-flex-direction: column;
 
-            flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .levelSelector button {
@@ -262,7 +262,7 @@ body {
 .startGame button:hover {
     background-color: rgb(0, 228, 0);
     -webkit-box-shadow: 0 0 40px rgb(251, 255, 0);
-            box-shadow: 0 0 40px rgb(251, 255, 0);
+    box-shadow: 0 0 40px rgb(251, 255, 0);
 }
 
 /* --------- endblock --------- */
@@ -316,11 +316,11 @@ body {
     overflow: hidden;
 }
 
-.question p{
+.question p {
     position: absolute;
     z-index: 999;
     top: 0;
-    
+
     width: 90%;
     height: 15%;
 
@@ -337,24 +337,24 @@ body {
 
 }
 
-.gameButtons{
+.gameButtons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     position: absolute;
     width: 100%;
-    bottom: 6rem;
+    bottom: 10rem;
 }
 
-.gameButtons button{
+.gameButtons button {
     width: 100%;
     height: 6rem;
     padding: 0 1rem;
-    
+
     text-align: justify;
     font-size: x-large;
     color: white;
@@ -367,34 +367,36 @@ body {
     word-wrap: break-word;
     display: inline;
 }
-.gameButtons button strong, p{
+
+.gameButtons button strong,
+p {
     display: inline;
 }
 
-.gameButtons button:hover{
+.gameButtons button:hover {
     background-color: rgba(0, 0, 0, 0.575);
 }
 
-.gameController{
+.gameController {
     position: absolute;
     bottom: 0;
 
     width: 100%;
-    height: 5rem;
-    
+    height: 6rem;
+
     display: -webkit-box;
-    
+
     display: -ms-flexbox;
-    
+
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 
     background-color: rgba(0, 0, 0, 0.911);
 }
 
-.giveNext{
+.giveNext {
     width: 50%;
     border: none;
 
@@ -406,33 +408,33 @@ body {
 
 }
 
-#giveUp:hover{
+#giveUp:hover {
     background-color: rgba(117, 0, 0, 0.527);
 }
 
-#next:hover{
+#next:hover {
     background-color: rgba(14, 117, 0, 0.418);
 }
 
-.right{
+.right {
     font-weight: 900;
     border-radius: 4px;
     -webkit-box-shadow: 0 0 20px greenyellow;
-            box-shadow: 0 0 20px greenyellow;
+    box-shadow: 0 0 20px greenyellow;
     background-color: greenyellow;
     color: black;
 }
 
-.wrong{
+.wrong {
     font-weight: 900;
     border-radius: 4px;
     -webkit-box-shadow: 0 0 20px red;
-            box-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px red;
     background-color: red;
     color: black;
 }
 
-.lives{
+.lives {
     position: absolute;
     margin: 1rem;
     height: 2rem;
@@ -443,7 +445,7 @@ body {
     display: flex;
 }
 
-.scoreBar{
+.scoreBar {
     position: absolute;
     margin: 0.5rem;
     height: 2rem;
@@ -459,22 +461,22 @@ body {
 
 /* --------- score display --------- */
 
-.scoreDisplay{
+.scoreDisplay {
     width: 100%;
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 
     background-image: url(../resources/img/bg_score_display.jpg);
     background-position: center;
@@ -482,13 +484,13 @@ body {
     background-size: cover;
 }
 
-.scoreDisplay button:hover{
+.scoreDisplay button:hover {
     background-color: green;
     -webkit-box-shadow: 0 0 40px green;
-            box-shadow: 0 0 40px green;
+    box-shadow: 0 0 40px green;
 }
 
-.back{
+.back {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -502,31 +504,31 @@ body {
 
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 
     padding: 2rem;
     border-radius: 2rem;
     background-color: rgba(0, 0, 0, 0.144);
     -webkit-backdrop-filter: blur(4px);
-            backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
 }
 
-#score{
+#score {
     margin: 1rem 1rem;
     padding: 1rem;
     color: white;
     border-radius: 1rem;
     background-color: rgba(0, 0, 0, 0.733);
     -webkit-box-shadow: 0 0 10px black;
-            box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
 }
 
 /* --------- endblock --------- */
@@ -544,4 +546,12 @@ body {
         margin-top: 10rem;
     }
 
+    .gameController {
+        /* height: 10rem; */
+        margin-bottom: 6rem;
+    }
+
+    .gameButtons {
+        bottom: 15rem;
+    }
 }
