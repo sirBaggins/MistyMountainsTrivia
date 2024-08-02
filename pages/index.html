@@ -67,24 +67,27 @@
         <!-- game loop -->
         <div class="gamePlay" id="gamePlay">
 
+            <div class="lives" id="livesBar"></div>
+            <div class="scoreBar" id="scoreBar"></div>
+
             <div class="dialog">
                 <div class="question">
-                    <p id="question">question here</p>
+                    <p id="questionLine">question here</p>
                 </div>
             </div>
 
             <div class="gameButtons">
 
-                <button onclick="verifyAnswer('a')"><strong>A) </strong>
+                <button onclick="userAnswerCheck('a')"><strong>A) </strong>
                     <p id="a"></p>
                 </button>
-                <button onclick="verifyAnswer('b')"><strong>B) </strong>
+                <button onclick="userAnswerCheck('b')"><strong>B) </strong>
                     <p id="b"></p>
                 </button>
-                <button onclick="verifyAnswer('c')"><strong>C) </strong>
+                <button onclick="userAnswerCheck('c')"><strong>C) </strong>
                     <p id="c"></p>
                 </button>
-                <button onclick="verifyAnswer('d')"><strong>D) </strong>
+                <button onclick="userAnswerCheck('d')"><strong>D) </strong>
                     <p id="d"></p>
                 </button>
 
@@ -92,7 +95,7 @@
 
             <div class="gameController">
 
-                <button class="giveNext" id="giveUp" onclick="init()">QUIT</button>
+                <button class="giveNext" id="giveUp" onclick="pageUpdater(3)">QUIT</button>
                 <button class="giveNext" id="next" onclick="loadNext()">NEXT</button>
 
             </div>

@@ -226,7 +226,7 @@ body {
 
 .easy {
     background-image: url(../resources/img/bg_easy.jpg);
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -346,6 +346,42 @@ body {
     background-color: rgba(14, 117, 0, 0.418);
 }
 
+.right{
+    font-weight: 900;
+    border-radius: 4px;
+    box-shadow: 0 0 20px greenyellow;
+    background-color: greenyellow;
+    color: black;
+}
+
+.wrong{
+    font-weight: 900;
+    border-radius: 4px;
+    box-shadow: 0 0 20px red;
+    background-color: red;
+    color: black;
+}
+
+.lives{
+    position: absolute;
+    margin: 1rem;
+    height: 2rem;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+.scoreBar{
+    position: absolute;
+    margin: 0.5rem;
+    height: 2rem;
+    right: 0;
+    top: 0;
+    font-size: xx-large;
+    font-family: fantasy;
+    color: var(--secondColour);
+}
+
 /* --------- endblock --------- */
 
 
@@ -358,6 +394,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    background-image: url(../resources/img/bg_score_display.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .scoreDisplay button:hover{
@@ -376,7 +417,8 @@ body {
 
     padding: 2rem;
     border-radius: 2rem;
-    background-color: rgba(0, 0, 0, 0.329);
+    background-color: rgba(0, 0, 0, 0.144);
+    backdrop-filter: blur(4px);
 }
 
 #score{
