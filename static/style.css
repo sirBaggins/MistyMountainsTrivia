@@ -307,7 +307,7 @@ body {
     height: 15rem;
     margin-top: -2rem;
 
-    background-color: rgba(250, 235, 215, 0.39);
+    background-color: rgba(139, 132, 123, 0.596);
     /* background-image: url(../resources/img/box_dialog.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -319,7 +319,7 @@ body {
 .question p {
     position: absolute;
     z-index: 999;
-    top: 0;
+    top: 1rem;
 
     width: 90%;
     height: 15%;
@@ -332,8 +332,8 @@ body {
     overflow-y: auto;
 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: x-large;
-    font-weight: 400;
+    font-size: xx-large;
+    font-weight: 600;
 
 }
 
@@ -516,7 +516,7 @@ p {
 
     padding: 2rem;
     border-radius: 2rem;
-    background-color: rgba(0, 0, 0, 0.144);
+    background-color: rgba(255, 249, 190, 0.144);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
 }
