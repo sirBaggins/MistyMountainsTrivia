@@ -2,6 +2,8 @@
 
 This is **MistyMountainsTrivia**, a mobile browser trivia game that tests your knowledge across various topics.  
 The project aims to be entirely built using plain HTML, CSS and JavaScript for learning purpuses.  
+## PLAY:  
+## https://sirbaggins.github.io/MistyMountainsTrivia/pages/index.html
 
 ## Game Overview
 
