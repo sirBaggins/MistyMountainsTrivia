@@ -311,7 +311,7 @@ body {
 
 .dialog {
     background-color: rgba(255, 255, 255, 0.767);
-    
+
     width: 100%;
     height: 25%;
 
@@ -320,11 +320,12 @@ body {
 
 }
 
-.question{
+.question {
     height: 100%;
     margin-left: 1rem;
     margin-right: 1rem;
-    
+    margin-top: 0.5rem;
+
     overflow-x: hidden;
     overflow-y: auto;
     overflow-wrap: anywhere;
@@ -349,7 +350,7 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    
+
     /* position: absolute; */
     width: 100%;
     height: 24rem;
@@ -380,7 +381,7 @@ p {
     display: inline;
 }
 
-.gameButtons button p{
+.gameButtons button p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -567,5 +568,9 @@ p {
 
     .gameButtons {
         top: 30%;
+    }
+
+    .question {
+        margin-top: 0;
     }
 }
