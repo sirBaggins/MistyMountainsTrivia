@@ -38,7 +38,7 @@ function init() {
 function pageUpdater(page) {
     switch (page) {
         case 0:
-            MENU.style.display = "block";
+            MENU.style.display = "flex";
             LEVELS.style.display = "none";
             GAME.style.display = "none";
             SCORE.style.display = "none";
@@ -52,9 +52,9 @@ function pageUpdater(page) {
             break;
 
         case 2:
+            GAME.style.display = "flex";
             LEVELS.style.display = "none"
             MENU.style.display = "none";
-            GAME.style.display = "flex";
             SCORE.style.display = "none";
             updateLives();
             updateScore();
@@ -62,10 +62,10 @@ function pageUpdater(page) {
             break;
 
         case 3:
+            SCORE.style.display = "flex";
             LEVELS.style.display = "none"
             MENU.style.display = "none";
             GAME.style.display = "none";
-            SCORE.style.display = "flex";
             displayScore();
             break;
 
