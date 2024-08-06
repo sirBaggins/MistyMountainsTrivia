@@ -96,17 +96,54 @@ function selectLanguage(lang) {
             language = 1;
             setBlur("language_pt", false);
             setBlur("language_en", true);
+            nowAllIsPortuguese(true);
             break;
         case "en":
             language = 0;
             setBlur("language_pt", true);
             setBlur("language_en", false);
+            nowAllIsPortuguese(false);
             break;
         default:
-            language = 0;
-            setBlur("language_pt", true);
-            setBlur("language_en", false);
+            selectLanguage("en");
             break;
+    }
+}
+
+function nowAllIsPortuguese(bool) {
+    const giveBTN = document.getElementById("giveUp");
+    const nextBTN = document.getElementById("next");
+    const easyBTN = document.getElementById("easy");
+    const normalBTN = document.getElementById("normal");
+    const hardBTN = document.getElementById("hard");
+    const startPlayBTN = document.getElementById("startPlayBTN");
+    const playBTN = document.getElementById("playGame");
+    const yourScoreIs = document.getElementById("yourScoreIs");
+    const playAgain = document.getElementById("playAgain");
+
+    if (bool) {
+        giveBTN.innerText = "Sair";
+        nextBTN.innerText = "Próximo";
+        easyBTN.innerText = "Fácil";
+        normalBTN.innerText = "Normal";
+        hardBTN.innerText = "Difícil";
+        playBTN.innerText = "Jogar";
+        startPlayBTN.innerText = "Jogar";
+        yourScoreIs.innerText = "Você acertou:"
+        playAgain.innerText = "Jogar novamente";
+    }
+    else {
+        {
+            giveBTN.innerText = "Quit";
+            nextBTN.innerText = "Next";
+            easyBTN.innerText = "Easy";
+            normalBTN.innerText = "Normal";
+            hardBTN.innerText = "Hard";
+            playBTN.innerText = "Play";
+            startPlayBTN.innerText = "Play";
+            yourScoreIs.innerText = "Your score is"
+            playAgain.innerText = "Play Again";
+        }
     }
 }
 
@@ -245,6 +282,19 @@ function updateLives() {
 
 function updateScore() {
     document.getElementById("scoreBar").innerHTML = score;
+}
+
+function leaveGame() {
+    if (language === 0) {
+        if (window.confirm("Are you sure you want to leave?")) {
+            pageUpdater(3);
+        }
+    }
+    else {
+        if (window.confirm("Você tem certeza de que deseja sair?")) {
+            pageUpdater(3);
+        }
+    }
 }
 
 // ------ GAME LOOP ------

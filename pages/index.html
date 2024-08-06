@@ -34,7 +34,7 @@
 
             </div>
             <div class="btnMenu">
-                <button class="btn second_BG click" onclick="pageUpdater(1)">PLAY</button>
+                <button class="btn second_BG click" id="playGame" onclick="pageUpdater(1)">PLAY</button>
             </div>
 
             <div class="language">
@@ -59,7 +59,7 @@
             <button class="btn click blur" id="hard" onclick="gameMode('hard')">HARD</button>
             <br>
             <div class="startGame">
-                <button class="btn click" onclick="pageUpdater(2)">PLAY</button>
+                <button class="btn click" onclick="pageUpdater(2)" id="startPlayBTN">PLAY</button>
             </div>
         </div>
         <!-- endblock -->
@@ -95,7 +95,7 @@
 
             <div class="gameController">
 
-                <button class="giveNext" id="giveUp" onclick="pageUpdater(3)">QUIT</button>
+                <button class="giveNext" id="giveUp" onclick="leaveGame()">QUIT</button>
                 <button class="giveNext" id="next" onclick="loadNext()">NEXT</button>
 
             </div>
@@ -105,9 +105,9 @@
         <!-- score -->
         <div class="scoreDisplay" id="scoreDisplay">
             <div class="back">
-                <h1>YOUR SCORE IS:</h1>
+                <h1 id="yourScoreIs">YOUR SCORE IS:</h1>
                 <h1 id="score">X</h1>
-                <button class="btn click" onclick="init()">PLAY AGAIN</button>
+                <button class="btn click" onclick="init()" id="playAgain">PLAY AGAIN</button>
             </div>
         </div>
         <!-- endblock -->

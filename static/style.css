@@ -52,6 +52,8 @@ body {
 }
 
 .gameContainer {
+    position: relative;
+
     min-width: 300px;
     width: 50%;
     height: 80%;
@@ -276,7 +278,12 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 20px;
-    position: relative;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+
+    flex-direction: column;
+
 
     background-color: white;
 }
@@ -309,7 +316,7 @@ body {
     height: 25%;
 
     position: relative;
-    top: 0;
+    /* top: 0; */
 
 }
 
@@ -343,11 +350,11 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 24rem;
 
-    top: 30%;
+    /* top: 30%; */
 }
 
 .gameButtons button {
@@ -382,8 +389,8 @@ p {
 }
 
 .gameController {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 
     width: 100%;
     height: 6rem;
