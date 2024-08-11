@@ -460,422 +460,246 @@ const heartEmptySvg = `<svg width="100%" height="100%" viewBox="0 0 24 24"
 
 const questionsBank_easy_en = [
     {
-        question: "What is the largest planet in our solar system?",
-        a: "Earth",
-        b: "Mars",
-        c: "Jupiter",
-        d: "Saturn",
-        correct: "c"
+        "question": "Which artist is famous for painting the Mona Lisa?",
+        "a": "Vincent van Gogh",
+        "b": "Leonardo da Vinci",
+        "c": "Pablo Picasso",
+        "d": "Claude Monet",
+        "correct": "b"
     },
     {
-        question: "What is the capital of France?",
-        a: "Berlin",
-        b: "Madrid",
-        c: "Rome",
-        d: "Paris",
-        correct: "d"
+        "question": "What type of art involves shaping clay?",
+        "a": "Sculpture",
+        "b": "Drawing",
+        "c": "Photography",
+        "d": "Painting",
+        "correct": "a"
     },
     {
-        question: "Which ocean is the largest?",
-        a: "Atlantic",
-        b: "Indian",
-        c: "Arctic",
-        d: "Pacific",
-        correct: "d"
+        "question": "Which artist is known for his colorful 'Starry Night' painting?",
+        "a": "Pablo Picasso",
+        "b": "Claude Monet",
+        "c": "Vincent van Gogh",
+        "d": "Leonardo da Vinci",
+        "correct": "c"
     },
     {
-        question: "What is the smallest country in the world?",
-        a: "Monaco",
-        b: "Vatican City",
-        c: "San Marino",
-        d: "Liechtenstein",
-        correct: "b"
+        "question": "Which material is commonly used for making sculptures?",
+        "a": "Wood",
+        "b": "Marble",
+        "c": "Canvas",
+        "d": "Paper",
+        "correct": "b"
     },
     {
-        question: "Who wrote 'Romeo and Juliet'?",
-        a: "Charles Dickens",
-        b: "Jane Austen",
-        c: "William Shakespeare",
-        d: "Mark Twain",
-        correct: "c"
+        "question": "Which of the following is a primary color?",
+        "a": "Green",
+        "b": "Purple",
+        "c": "Red",
+        "d": "Orange",
+        "correct": "c"
     },
     {
-        question: "What is the chemical symbol for water?",
-        a: "O2",
-        b: "H2O",
-        c: "CO2",
-        d: "NaCl",
-        correct: "b"
+        "question": "Which art form involves the use of a camera?",
+        "a": "Sculpture",
+        "b": "Painting",
+        "c": "Photography",
+        "d": "Drawing",
+        "correct": "c"
     },
     {
-        question: "What is the fastest land animal?",
-        a: "Lion",
-        b: "Elephant",
-        c: "Cheetah",
-        d: "Horse",
-        correct: "c"
+        "question": "What is the name of the famous sculpture with no arms, 'Venus de ___'?",
+        "a": "Rome",
+        "b": "Milo",
+        "c": "Athens",
+        "d": "Cairo",
+        "correct": "b"
     },
     {
-        question: "How many continents are there?",
-        a: "5",
-        b: "6",
-        c: "7",
-        d: "8",
-        correct: "c"
+        "question": "Who painted the ceiling of the Sistine Chapel?",
+        "a": "Raphael",
+        "b": "Donatello",
+        "c": "Michelangelo",
+        "d": "Leonardo da Vinci",
+        "correct": "c"
     },
     {
-        question: "What is the boiling point of water?",
-        a: "90°C",
-        b: "100°C",
-        c: "110°C",
-        d: "120°C",
-        correct: "b"
+        "question": "Which country is the famous painter Frida Kahlo from?",
+        "a": "Italy",
+        "b": "France",
+        "c": "Mexico",
+        "d": "Spain",
+        "correct": "c"
     },
     {
-        question: "What is the largest mammal?",
-        a: "Elephant",
-        b: "Blue whale",
-        c: "Giraffe",
-        d: "Hippo",
-        correct: "b"
+        "question": "Which of these is NOT a famous painting?",
+        "a": "The Scream",
+        "b": "The Starry Night",
+        "c": "The Mona Lisa",
+        "d": "The Laughing Man",
+        "correct": "d"
     },
     {
-        question: "What currency is used in Japan?",
-        a: "Yuan",
-        b: "Won",
-        c: "Yen",
-        d: "Dollar",
-        correct: "c"
+        "question": "What type of paint is most commonly used in schools?",
+        "a": "Oil paint",
+        "b": "Watercolor",
+        "c": "Acrylic paint",
+        "d": "Tempera paint",
+        "correct": "d"
     },
     {
-        question: "Who painted the Mona Lisa?",
-        a: "Vincent van Gogh",
-        b: "Pablo Picasso",
-        c: "Claude Monet",
-        d: "Leonardo da Vinci",
-        correct: "d"
+        "question": "Which artist is known for his Blue Period?",
+        "a": "Vincent van Gogh",
+        "b": "Leonardo da Vinci",
+        "c": "Pablo Picasso",
+        "d": "Claude Monet",
+        "correct": "c"
     },
     {
-        question: "What is the capital of Italy?",
-        a: "Milan",
-        b: "Venice",
-        c: "Rome",
-        d: "Naples",
-        correct: "c"
+        "question": "Which of these is a type of printmaking?",
+        "a": "Etching",
+        "b": "Watercolor",
+        "c": "Collage",
+        "d": "Sketching",
+        "correct": "a"
     },
     {
-        question: "What is the hardest natural substance on Earth?",
-        a: "Gold",
-        b: "Iron",
-        c: "Diamond",
-        d: "Silver",
-        correct: "c"
+        "question": "What is the art of making images by cutting paper called?",
+        "a": "Collage",
+        "b": "Origami",
+        "c": "Stencil",
+        "d": "Silhouette",
+        "correct": "d"
     },
     {
-        question: "What is the primary ingredient in bread?",
-        a: "Rice",
-        b: "Flour",
-        c: "Sugar",
-        d: "Butter",
-        correct: "b"
+        "question": "Which artist is famous for his abstract drip paintings?",
+        "a": "Claude Monet",
+        "b": "Jackson Pollock",
+        "c": "Pablo Picasso",
+        "d": "Andy Warhol",
+        "correct": "b"
     },
     {
-        question: "What planet is known as the Red Planet?",
-        a: "Mercury",
-        b: "Venus",
-        c: "Earth",
-        d: "Mars",
-        correct: "d"
+        "question": "Which tool is used to mix paint colors?",
+        "a": "Palette",
+        "b": "Chisel",
+        "c": "Brush",
+        "d": "Sponge",
+        "correct": "a"
     },
     {
-        question: "What is the largest bone in the human body?",
-        a: "Skull",
-        b: "Femur",
-        c: "Spine",
-        d: "Rib",
-        correct: "b"
+        "question": "What is a self-portrait?",
+        "a": "A painting of a landscape",
+        "b": "A painting of a famous person",
+        "c": "A painting an artist makes of themselves",
+        "d": "A painting of an animal",
+        "correct": "c"
     },
     {
-        question: "Who is known as the 'Father of Computers'?",
-        a: "Albert Einstein",
-        b: "Isaac Newton",
-        c: "Charles Babbage",
-        d: "Nikola Tesla",
-        correct: "c"
+        "question": "What do you call the person who models for an artist?",
+        "a": "Subject",
+        "b": "Model",
+        "c": "Sculptor",
+        "d": "Canvas",
+        "correct": "b"
     },
     {
-        question: "What is the longest river in the world?",
-        a: "Amazon",
-        b: "Nile",
-        c: "Yangtze",
-        d: "Mississippi",
-        correct: "b"
+        "question": "Which of these is a famous museum in France?",
+        "a": "The Louvre",
+        "b": "The Prado",
+        "c": "The British Museum",
+        "d": "The Uffizi",
+        "correct": "a"
     },
     {
-        question: "What is the main ingredient in guacamole?",
-        a: "Tomato",
-        b: "Avocado",
-        c: "Onion",
-        d: "Pepper",
-        correct: "b"
+        "question": "What do you call a painting done with thick layers of paint?",
+        "a": "Watercolor",
+        "b": "Impasto",
+        "c": "Fresco",
+        "d": "Pastel",
+        "correct": "b"
     },
     {
-        question: "What is the capital of Australia?",
-        a: "Sydney",
-        b: "Melbourne",
-        c: "Brisbane",
-        d: "Canberra",
-        correct: "d"
+        "question": "Who is known as the artist who cut off his ear?",
+        "a": "Leonardo da Vinci",
+        "b": "Claude Monet",
+        "c": "Vincent van Gogh",
+        "d": "Michelangelo",
+        "correct": "c"
     },
     {
-        question: "Who discovered penicillin?",
-        a: "Marie Curie",
-        b: "Albert Einstein",
-        c: "Alexander Fleming",
-        d: "Isaac Newton",
-        correct: "c"
+        "question": "What is the process of applying color to a surface called?",
+        "a": "Sculpting",
+        "b": "Drawing",
+        "c": "Painting",
+        "d": "Etching",
+        "correct": "c"
     },
     {
-        question: "What is the largest desert in the world?",
-        a: "Sahara",
-        b: "Gobi",
-        c: "Kalahari",
-        d: "Arctic",
-        correct: "a"
+        "question": "Which of these is NOT a type of art medium?",
+        "a": "Oil paint",
+        "b": "Canvas",
+        "c": "Watercolor",
+        "d": "Charcoal",
+        "correct": "b"
     },
     {
-        question: "What is the capital of Canada?",
-        a: "Toronto",
-        b: "Vancouver",
-        c: "Montreal",
-        d: "Ottawa",
-        correct: "d"
+        "question": "Which of these is a type of dance?",
+        "a": "Ballet",
+        "b": "Collage",
+        "c": "Pottery",
+        "d": "Mosaic",
+        "correct": "a"
     },
     {
-        question: "How many colors are there in a rainbow?",
-        a: "5",
-        b: "6",
-        c: "7",
-        d: "8",
-        correct: "c"
+        "question": "What do you call the technique of painting on wet plaster?",
+        "a": "Fresco",
+        "b": "Impasto",
+        "c": "Mosaic",
+        "d": "Watercolor",
+        "correct": "a"
     },
     {
-        question: "What is the smallest planet in our solar system?",
-        a: "Mercury",
-        b: "Venus",
-        c: "Earth",
-        d: "Mars",
-        correct: "a"
+        "question": "Which famous artist painted water lilies?",
+        "a": "Pablo Picasso",
+        "b": "Claude Monet",
+        "c": "Leonardo da Vinci",
+        "d": "Edgar Degas",
+        "correct": "b"
     },
     {
-        question: "What is the capital of England?",
-        a: "Liverpool",
-        b: "Manchester",
-        c: "London",
-        d: "Birmingham",
-        correct: "c"
+        "question": "What is a mosaic made of?",
+        "a": "Pieces of glass or tile",
+        "b": "Pieces of paper",
+        "c": "Paint",
+        "d": "Fabric",
+        "correct": "a"
     },
     {
-        question: "Which gas is most abundant in the Earth's atmosphere?",
-        a: "Oxygen",
-        b: "Hydrogen",
-        c: "Carbon Dioxide",
-        d: "Nitrogen",
-        correct: "d"
+        "question": "Which art movement is Salvador Dalí associated with?",
+        "a": "Impressionism",
+        "b": "Surrealism",
+        "c": "Cubism",
+        "d": "Expressionism",
+        "correct": "b"
     },
     {
-        question: "What is the chemical symbol for gold?",
-        a: "Au",
-        b: "Ag",
-        c: "Fe",
-        d: "Pb",
-        correct: "a"
+        "question": "What do you call a three-dimensional work of art?",
+        "a": "Drawing",
+        "b": "Painting",
+        "c": "Sculpture",
+        "d": "Collage",
+        "correct": "c"
     },
     {
-        question: "Who was the first President of the United States?",
-        a: "Thomas Jefferson",
-        b: "Abraham Lincoln",
-        c: "George Washington",
-        d: "John Adams",
-        correct: "c"
-    },
-    {
-        question: "What is the capital of Germany?",
-        a: "Munich",
-        b: "Berlin",
-        c: "Frankfurt",
-        d: "Hamburg",
-        correct: "b"
-    },
-    {
-        question: "How many teeth does an adult human have?",
-        a: "28",
-        b: "30",
-        c: "32",
-        d: "34",
-        correct: "c"
-    },
-    {
-        question: "What is the largest continent?",
-        a: "Africa",
-        b: "Asia",
-        c: "Europe",
-        d: "Australia",
-        correct: "b"
-    },
-    {
-        question: "What is the primary language spoken in Brazil?",
-        a: "Spanish",
-        b: "Portuguese",
-        c: "French",
-        d: "English",
-        correct: "b"
-    },
-    {
-        question: "What is the chemical symbol for sodium?",
-        a: "Na",
-        b: "S",
-        c: "Cl",
-        d: "K",
-        correct: "a"
-    },
-    {
-        question: "Who wrote 'The Odyssey'?",
-        a: "Homer",
-        b: "Virgil",
-        c: "Sophocles",
-        d: "Euripides",
-        correct: "a"
-    },
-    {
-        question: "What is the capital of Spain?",
-        a: "Barcelona",
-        b: "Valencia",
-        c: "Madrid",
-        d: "Seville",
-        correct: "c"
-    },
-    {
-        question: "What is the tallest mountain in the world?",
-        a: "K2",
-        b: "Kangchenjunga",
-        c: "Lhotse",
-        d: "Mount Everest",
-        correct: "d"
-    },
-    {
-        question: "What is the largest animal on Earth?",
-        a: "Elephant",
-        b: "Blue whale",
-        c: "Great white shark",
-        d: "Giraffe",
-        correct: "b"
-    },
-    {
-        question: "What is the capital of China?",
-        a: "Shanghai",
-        b: "Beijing",
-        c: "Hong Kong",
-        d: "Guangzhou",
-        correct: "b"
-    },
-    {
-        question: "What is the primary ingredient in chocolate?",
-        a: "Vanilla",
-        b: "Sugar",
-        c: "Milk",
-        d: "Cocoa",
-        correct: "d"
-    },
-    {
-        question: "What is the capital of Russia?",
-        a: "Saint Petersburg",
-        b: "Moscow",
-        c: "Novosibirsk",
-        d: "Yekaterinburg",
-        correct: "b"
-    },
-    {
-        question: "What is the largest land animal?",
-        a: "Elephant",
-        b: "Rhinoceros",
-        c: "Hippopotamus",
-        d: "Giraffe",
-        correct: "a"
-    },
-    {
-        question: "What is the main ingredient in a Caesar salad?",
-        a: "Spinach",
-        b: "Lettuce",
-        c: "Kale",
-        d: "Cabbage",
-        correct: "b"
-    },
-    {
-        question: "What is the capital of Mexico?",
-        a: "Guadalajara",
-        b: "Monterrey",
-        c: "Cancun",
-        d: "Mexico City",
-        correct: "d"
-    },
-    {
-        question: "What is the largest organ in the human body?",
-        a: "Liver",
-        b: "Brain",
-        c: "Skin",
-        d: "Heart",
-        correct: "c"
-    },
-    {
-        question: "What is the primary ingredient in hummus?",
-        a: "Lentils",
-        b: "Chickpeas",
-        c: "Beans",
-        d: "Peas",
-        correct: "b"
-    },
-    {
-        question: "What is the capital of Argentina?",
-        a: "Cordoba",
-        b: "Rosario",
-        c: "Mendoza",
-        d: "Buenos Aires",
-        correct: "d"
-    },
-    {
-        question: "What is the most widely spoken language in the world?",
-        a: "Spanish",
-        b: "English",
-        c: "Hindi",
-        d: "Mandarin",
-        correct: "d"
-    },
-    {
-        question: "What is the largest island in the world?",
-        a: "Borneo",
-        b: "Madagascar",
-        c: "Greenland",
-        d: "New Guinea",
-        correct: "c"
-    },
-    {
-        question: "What is the capital of Egypt?",
-        a: "Cairo",
-        b: "Alexandria",
-        c: "Giza",
-        d: "Luxor",
-        correct: "a"
-    },
-    {
-        question: "What is the most popular sport in the world?",
-        a: "Basketball",
-        b: "Cricket",
-        c: "Football (Soccer)",
-        d: "Tennis",
-        correct: "c"
+        "question": "Which tool is used to make lines in a drawing?",
+        "a": "Brush",
+        "b": "Pencil",
+        "c": "Sponge",
+        "d": "Chisel",
+        "correct": "b"
     }
-];
+    ];
 
 const questionsBank_normal_en = [
     {
@@ -1429,420 +1253,196 @@ const questionsBank_hard_en = [
 
 const questionsBank_easy_pt = [
     {
-        question: "Qual é o maior planeta do nosso sistema solar?",
-        a: "Terra",
-        b: "Marte",
-        c: "Júpiter",
-        d: "Saturno",
-        correct: "c"
+        "question": "Qual artista é famoso por pintar a Mona Lisa?",
+        "a": "Vincent van Gogh",
+        "b": "Leonardo da Vinci",
+        "c": "Pablo Picasso",
+        "d": "Claude Monet",
+        "correct": "b"
     },
     {
-        question: "Qual é a capital da França?",
-        a: "Berlim",
-        b: "Madri",
-        c: "Roma",
-        d: "Paris",
-        correct: "d"
+        "question": "Qual tipo de arte envolve moldar argila?",
+        "a": "Escultura",
+        "b": "Desenho",
+        "c": "Fotografia",
+        "d": "Pintura",
+        "correct": "a"
     },
     {
-        question: "Qual é o maior oceano?",
-        a: "Atlântico",
-        b: "Índico",
-        c: "Ártico",
-        d: "Pacífico",
-        correct: "d"
+        "question": "Qual artista é conhecido por sua pintura colorida 'Noite Estrelada'?",
+        "a": "Pablo Picasso",
+        "b": "Claude Monet",
+        "c": "Vincent van Gogh",
+        "d": "Leonardo da Vinci",
+        "correct": "c"
     },
     {
-        question: "Qual é o menor país do mundo?",
-        a: "Mônaco",
-        b: "Vaticano",
-        c: "San Marino",
-        d: "Liechtenstein",
-        correct: "b"
+        "question": "Qual material é comumente usado para fazer esculturas?",
+        "a": "Madeira",
+        "b": "Mármore",
+        "c": "Tela",
+        "d": "Papel",
+        "correct": "b"
     },
     {
-        question: "Quem escreveu 'Romeu e Julieta'?",
-        a: "Charles Dickens",
-        b: "Jane Austen",
-        c: "William Shakespeare",
-        d: "Mark Twain",
-        correct: "c"
+        "question": "Qual dessas é uma cor primária?",
+        "a": "Verde",
+        "b": "Roxo",
+        "c": "Vermelho",
+        "d": "Laranja",
+        "correct": "c"
     },
     {
-        question: "Qual é o símbolo químico da água?",
-        a: "O2",
-        b: "H2O",
-        c: "CO2",
-        d: "NaCl",
-        correct: "b"
+        "question": "Qual forma de arte envolve o uso de uma câmera?",
+        "a": "Escultura",
+        "b": "Pintura",
+        "c": "Fotografia",
+        "d": "Desenho",
+        "correct": "c"
     },
     {
-        question: "Qual é o animal terrestre mais rápido?",
-        a: "Leão",
-        b: "Elefante",
-        c: "Guepardo",
-        d: "Cavalo",
-        correct: "c"
+        "question": "Qual é o nome da famosa escultura sem braços, 'Vênus de ___'?",
+        "a": "Roma",
+        "b": "Milo",
+        "c": "Atenas",
+        "d": "Cairo",
+        "correct": "b"
     },
     {
-        question: "Quantos continentes existem?",
-        a: "5",
-        b: "6",
-        c: "7",
-        d: "8",
-        correct: "c"
+        "question": "Quem pintou o teto da Capela Sistina?",
+        "a": "Rafael",
+        "b": "Donatello",
+        "c": "Michelangelo",
+        "d": "Leonardo da Vinci",
+        "correct": "c"
     },
     {
-        question: "Qual é o ponto de ebulição da água?",
-        a: "90°C",
-        b: "100°C",
-        c: "110°C",
-        d: "120°C",
-        correct: "b"
+        "question": "De qual país é a famosa pintora Frida Kahlo?",
+        "a": "Itália",
+        "b": "França",
+        "c": "México",
+        "d": "Espanha",
+        "correct": "c"
     },
     {
-        question: "Qual é o maior mamífero?",
-        a: "Elefante",
-        b: "Baleia azul",
-        c: "Girafa",
-        d: "Hipopótamo",
-        correct: "b"
+        "question": "Qual das opções NÃO é uma pintura famosa?",
+        "a": "O Grito",
+        "b": "A Noite Estrelada",
+        "c": "A Mona Lisa",
+        "d": "O Homem Risonho",
+        "correct": "d"
     },
     {
-        question: "Qual moeda é usada no Japão?",
-        a: "Yuan",
-        b: "Won",
-        c: "Iene",
-        d: "Dólar",
-        correct: "c"
+        "question": "Qual é o tipo de tinta mais comumente usado nas escolas?",
+        "a": "Tinta a óleo",
+        "b": "Aquarela",
+        "c": "Tinta acrílica",
+        "d": "Tinta guache",
+        "correct": "d"
     },
     {
-        question: "Quem pintou a Mona Lisa?",
-        a: "Vincent van Gogh",
-        b: "Pablo Picasso",
-        c: "Claude Monet",
-        d: "Leonardo da Vinci",
-        correct: "d"
+        "question": "Qual artista é conhecido por seu Período Azul?",
+        "a": "Vincent van Gogh",
+        "b": "Leonardo da Vinci",
+        "c": "Pablo Picasso",
+        "d": "Claude Monet",
+        "correct": "c"
     },
     {
-        question: "Qual é a capital da Itália?",
-        a: "Milão",
-        b: "Veneza",
-        c: "Roma",
-        d: "Nápoles",
-        correct: "c"
+        "question": "Qual dessas é uma forma de gravura?",
+        "a": "Água-forte",
+        "b": "Aquarela",
+        "c": "Colagem",
+        "d": "Desenho",
+        "correct": "a"
     },
     {
-        question: "Qual é a substância natural mais dura da Terra?",
-        a: "Ouro",
-        b: "Ferro",
-        c: "Diamante",
-        d: "Prata",
-        correct: "c"
+        "question": "Qual é o nome da técnica de pintar com camadas espessas de tinta?",
+        "a": "Aquarela",
+        "b": "Impasto",
+        "c": "Fresco",
+        "d": "Pastel",
+        "correct": "b"
     },
     {
-        question: "Qual é o ingrediente principal do pão?",
-        a: "Arroz",
-        b: "Farinha",
-        c: "Açúcar",
-        d: "Manteiga",
-        correct: "b"
+        "question": "Quem é conhecido como o artista que cortou sua própria orelha?",
+        "a": "Leonardo da Vinci",
+        "b": "Claude Monet",
+        "c": "Vincent van Gogh",
+        "d": "Michelangelo",
+        "correct": "c"
     },
     {
-        question: "Qual planeta é conhecido como o Planeta Vermelho?",
-        a: "Mercúrio",
-        b: "Vênus",
-        c: "Terra",
-        d: "Marte",
-        correct: "d"
+        "question": "Qual é o processo de aplicar cor a uma superfície chamado?",
+        "a": "Escultura",
+        "b": "Desenho",
+        "c": "Pintura",
+        "d": "Gravura",
+        "correct": "c"
     },
     {
-        question: "Qual é o maior osso do corpo humano?",
-        a: "Crânio",
-        b: "Fêmur",
-        c: "Coluna",
-        d: "Costela",
-        correct: "b"
+        "question": "Qual dessas NÃO é um meio de arte?",
+        "a": "Tinta a óleo",
+        "b": "Tela",
+        "c": "Aquarela",
+        "d": "Carvão",
+        "correct": "b"
     },
     {
-        question: "Quem é conhecido como o 'Pai dos Computadores'?",
-        a: "Albert Einstein",
-        b: "Isaac Newton",
-        c: "Charles Babbage",
-        d: "Nikola Tesla",
-        correct: "c"
+        "question": "Qual dessas é uma forma de dança?",
+        "a": "Balé",
+        "b": "Colagem",
+        "c": "Cerâmica",
+        "d": "Mosaico",
+        "correct": "a"
     },
     {
-        question: "Qual é o rio mais longo do mundo?",
-        a: "Amazônia",
-        b: "Nilo",
-        c: "Yangtze",
-        d: "Mississipi",
-        correct: "b"
+        "question": "Qual é o nome da técnica de pintar sobre gesso molhado?",
+        "a": "Fresco",
+        "b": "Impasto",
+        "c": "Mosaico",
+        "d": "Aquarela",
+        "correct": "a"
     },
     {
-        question: "Qual é o ingrediente principal do guacamole?",
-        a: "Tomate",
-        b: "Abacate",
-        c: "Cebola",
-        d: "Pimenta",
-        correct: "b"
+        "question": "Qual artista é famoso por suas pinturas de nenúfares?",
+        "a": "Pablo Picasso",
+        "b": "Claude Monet",
+        "c": "Leonardo da Vinci",
+        "d": "Edgar Degas",
+        "correct": "b"
     },
     {
-        question: "Qual é a capital da Austrália?",
-        a: "Sydney",
-        b: "Melbourne",
-        c: "Brisbane",
-        d: "Canberra",
-        correct: "d"
+        "question": "Do que é feito um mosaico?",
+        "a": "Pedaços de vidro ou azulejo",
+        "b": "Pedaços de papel",
+        "c": "Pintura",
+        "d": "Tecido",
+        "correct": "a"
     },
     {
-        question: "Quem descobriu a penicilina?",
-        a: "Marie Curie",
-        b: "Albert Einstein",
-        c: "Alexander Fleming",
-        d: "Isaac Newton",
-        correct: "c"
+        "question": "Qual movimento artístico Salvador Dalí está associado?",
+        "a": "Impressionismo",
+        "b": "Surrealismo",
+        "c": "Cubismo",
+        "d": "Expressionismo",
+        "correct": "b"
     },
     {
-        question: "Qual é o maior deserto do mundo?",
-        a: "Sahara",
-        b: "Gobi",
-        c: "Kalahari",
-        d: "Ártico",
-        correct: "a"
+        "question": "Como se chama uma obra de arte tridimensional?",
+        "a": "Desenho",
+        "b": "Pintura",
+        "c": "Escultura",
+        "d": "Colagem",
+        "correct": "c"
     },
     {
-        question: "Qual é a capital do Canadá?",
-        a: "Toronto",
-        b: "Vancouver",
-        c: "Montreal",
-        d: "Ottawa",
-        correct: "d"
-    },
-    {
-        question: "Quantas cores existem no arco-íris?",
-        a: "5",
-        b: "6",
-        c: "7",
-        d: "8",
-        correct: "c"
-    },
-    {
-        question: "Qual é o menor planeta do nosso sistema solar?",
-        a: "Mercúrio",
-        b: "Vênus",
-        c: "Terra",
-        d: "Marte",
-        correct: "a"
-    },
-    {
-        question: "Qual é a capital da Inglaterra?",
-        a: "Liverpool",
-        b: "Manchester",
-        c: "Londres",
-        d: "Birmingham",
-        correct: "c"
-    },
-    {
-        question: "Qual gás é mais abundante na atmosfera da Terra?",
-        a: "Oxigênio",
-        b: "Hidrogênio",
-        c: "Dióxido de Carbono",
-        d: "Nitrogênio",
-        correct: "d"
-    },
-    {
-        question: "Qual é o símbolo químico do ouro?",
-        a: "Au",
-        b: "Ag",
-        c: "Fe",
-        d: "Pb",
-        correct: "a"
-    },
-    {
-        question: "Quem foi o primeiro Presidente dos Estados Unidos?",
-        a: "Thomas Jefferson",
-        b: "Abraham Lincoln",
-        c: "George Washington",
-        d: "John Adams",
-        correct: "c"
-    },
-    {
-        question: "Qual é a capital da Alemanha?",
-        a: "Munique",
-        b: "Berlim",
-        c: "Frankfurt",
-        d: "Hamburgo",
-        correct: "b"
-    },
-    {
-        question: "Quantos dentes tem um adulto?",
-        a: "28",
-        b: "30",
-        c: "32",
-        d: "34",
-        correct: "c"
-    },
-    {
-        question: "Qual é o maior continente?",
-        a: "África",
-        b: "Ásia",
-        c: "Europa",
-        d: "Austrália",
-        correct: "b"
-    },
-    {
-        question: "Qual é a língua principal falada no Brasil?",
-        a: "Espanhol",
-        b: "Português",
-        c: "Francês",
-        d: "Inglês",
-        correct: "b"
-    },
-    {
-        question: "Qual é o símbolo químico do sódio?",
-        a: "Na",
-        b: "S",
-        c: "Cl",
-        d: "K",
-        correct: "a"
-    },
-    {
-        question: "Quem escreveu 'A Odisséia'?",
-        a: "Homero",
-        b: "Virgílio",
-        c: "Sófocles",
-        d: "Eurípides",
-        correct: "a"
-    },
-    {
-        question: "Qual é a capital da Espanha?",
-        a: "Barcelona",
-        b: "Valência",
-        c: "Madri",
-        d: "Sevilha",
-        correct: "c"
-    },
-    {
-        question: "Qual é a montanha mais alta do mundo?",
-        a: "K2",
-        b: "Kangchenjunga",
-        c: "Lhotse",
-        d: "Monte Everest",
-        correct: "d"
-    },
-    {
-        question: "Qual é o maior animal da Terra?",
-        a: "Elefante",
-        b: "Baleia azul",
-        c: "Tubarão branco",
-        d: "Girafa",
-        correct: "b"
-    },
-    {
-        question: "Qual é a capital da China?",
-        a: "Xangai",
-        b: "Pequim",
-        c: "Hong Kong",
-        d: "Guangzhou",
-        correct: "b"
-    },
-    {
-        question: "Qual é o ingrediente principal do chocolate?",
-        a: "Baunilha",
-        b: "Açúcar",
-        c: "Leite",
-        d: "Cacau",
-        correct: "d"
-    },
-    {
-        question: "Qual é a capital da Rússia?",
-        a: "São Petersburgo",
-        b: "Moscovo",
-        c: "Novosibirsk",
-        d: "Ecaterimburgo",
-        correct: "b"
-    },
-    {
-        question: "Qual é o maior animal terrestre?",
-        a: "Elefante",
-        b: "Rinoceronte",
-        c: "Hipopótamo",
-        d: "Girafa",
-        correct: "a"
-    },
-    {
-        question: "Qual é o ingrediente principal de uma salada Caesar?",
-        a: "Espinafre",
-        b: "Alface",
-        c: "Couve",
-        d: "Repolho",
-        correct: "b"
-    },
-    {
-        question: "Qual é a capital do México?",
-        a: "Guadalajara",
-        b: "Monterrey",
-        c: "Cancún",
-        d: "Cidade do México",
-        correct: "d"
-    },
-    {
-        question: "Qual é o maior órgão do corpo humano?",
-        a: "Fígado",
-        b: "Cérebro",
-        c: "Pele",
-        d: "Coração",
-        correct: "c"
-    },
-    {
-        question: "Qual é o ingrediente principal do hummus?",
-        a: "Lentilhas",
-        b: "Grão-de-bico",
-        c: "Feijão",
-        d: "Ervilhas",
-        correct: "b"
-    },
-    {
-        question: "Qual é a capital da Argentina?",
-        a: "Córdoba",
-        b: "Rosário",
-        c: "Mendoza",
-        d: "Buenos Aires",
-        correct: "d"
-    },
-    {
-        question: "Qual é a língua mais falada no mundo?",
-        a: "Espanhol",
-        b: "Inglês",
-        c: "Hindi",
-        d: "Mandarim",
-        correct: "d"
-    },
-    {
-        question: "Qual é a maior ilha do mundo?",
-        a: "Bornéu",
-        b: "Madagascar",
-        c: "Groenlândia",
-        d: "Nova Guiné",
-        correct: "c"
-    },
-    {
-        question: "Qual é a capital do Egito?",
-        a: "Cairo",
-        b: "Alexandria",
-        c: "Giza",
-        d: "Luxor",
-        correct: "a"
-    },
-    {
-        question: "Qual é o esporte mais popular do mundo?",
-        a: "Basquete",
-        b: "Críquete",
-        c: "Futebol",
-        d: "Tênis",
-        correct: "c"
+        "question": "Qual ferramenta é usada para fazer linhas em um desenho?",
+        "a": "Pincel",
+        "b": "Lápis",
+        "c": "Esponja",
+        "d": "Cinzel",
+        "correct": "b"
     }
 ];
 
